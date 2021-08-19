@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ema Agency - Listing on Crypto Exchange</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" type="image/png" href="./image/favicon.png">
+    <script src="./js/email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_OXYwRM2Xy4yrmLwWvr32Q");
+    })();
+    </script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header class="header">
+        <div class="header__img">
+            <img src="./image/logo-EMA.png" alt="Logo de EMA">
+        </div>
+        <div id="btn-navbar">
+            <i class="fas fa-bars" id="btnNavBar"></i>
+        </div>
+        <nav class="header__nav">
+            <a href="#listing" class="text-a">Listing</a>
+            <a href="#exchanges" class="text-a">Exchanges</a>
+            <a href="#ieo" class="text-a">IEO</a>
+            <a href="#team" class="text-a">Our Team</a>
+            <a href="#contacts" class="text-a">Contacts</a>
+            <div class="header__nav--idiomas">
+                <img src="./image/idiomas/en.png" alt="language English" id="lenguaje-primario">
+                <div class="header__nav--idiomas-sec">
+                    <a href="/cn"><img src="./image/idiomas/cn.png" alt="language chinanse"></a>
+                    <a href="/es"><img src="./image/idiomas/es.png" alt="language chinanse"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__title ">
+            <h1>LISTING ON CRYPTO EXCHANGES</h1>
+            <p>your best option to list your token project with cryptographic advice</p>
+        </div>
+        <div class="main__ilustracion ">
+            <div class="main__ilustracion--item">
+                <i class="fas fa-people-arrows"></i>
+                <p>50 + Exchanges</p>
+            </div>
+            <div class="main__ilustracion--item ">
+                <i class="fas fa-chart-bar"></i>
+                <p>Great analysis</p>
+            </div>
+            <div class="main__ilustracion--item">
+                <i class="fas fa-comments-dollar"></i>
+                <p>
+                Prices lower
+                <br>
+                than official
+                </p>
+            </div>
+        </div>
+        <div class="main__btn">
+            <a href="#contacts" class="text-a">Get a free consultation</a>
+        </div>
+    </main>
+    <section class="section stn-1" id="listing">
+        <div class="section__text animate">
+            <h2>What is EMA Agency</h2>
+        </div>
+        <div class="section__items">
+            
+            <div class="section__items--right animate">
+                <p>We are a Company in charge of supporting Global Blockchain Projects in matters of cryptocurrency listing, IEO Preparation, Marketing and AMA sections.</p>
+                <p>Our purpose is to help our clients establish the best listing plan based on project need, availability and budget.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section stn-2">
+        <div class="section__text animate">
+            <h2>What we offer you</h2>
+        </div>
+        <div class="section__fase">
+            <div class="section__fase--1 animate">
+                <p>Full advice and assistance on the listing of tokens or coins on well-known platforms.</p>
+                <p>Negotiate rates and services that adapt to the needs of each project. </p>
+                <p>Total confidentiality between agreements. </p>
+                <p>Development of an adequate pricing strategy that meets the objectives and budget of the project.</p>
+                <p>We list our clients in record time, the exchange naturally takes a long time to respond and even if the list is approved it will be very long.</p>
+            </div>
+        </div>
+        <div class="section__btn">
+            <a href="#contacts">Contact Us</a>
+        </div>
+    </section>
+    <section class="section" id="exchanges">
+        <div class="section__text animate">
+            <h2>
+                Exchanges
+            </h2>
+        </div>
+        <div class="section__desc animate">
+            <p>We can help you list cryptocurrencies and tokens on various leading crypto exchanges. We have relationships with Western and Asian exchanges and can facilitate token listing applications and due diligence for blockchain and ICO projects.</p>
+            <p>Token or ICO developers can use our token listing service as a gateway to listing tokens on major crypto exchanges to increase their popularity, liquidity, trading volume, and market reach. Because the market is extremely saturated, most exchanges rely on partners like us to perform initial due diligence and team verification to help them spot weak projects.</p>
+        </div>
+        <div class="section__exchanges" id="exchange">
+            
+        </div>
+        <div class="section__btn">
+            <a href="#contacts">and many more exchanges!</a>
+        </div>
+    </section>
+    <section class="section backgraund-img" id="getExchanges">
+        <div class="section__background">
+            <div class="section__content">
+                <div class="section__content--title">
+                    <h2>Choose which exchanges you want to list with <span style="color: #25dbdb;">[<span id="nameExchange" style="color:#fff"></span>]</span></h2>
+                    <p>contact the EMA team for more information on exchanges</p>
+                </div>
+                <div class="section__content--form">
+                    <input type="email" placeholder="Your E-mail" id="emailName">
+                    <input type="text" placeholder="Project" id="nameProject">
+                    <button onclick="exchangeFrom()">get the list</button>
+                </div>
+                <div class="section__content--verificacion">
+                    <p>Thank you. wait for one of our team to contact you and give you more details</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section black" id="team">
+        <div class="section__text animate">
+            <h2>
+                Our team
+            </h2>
+        </div>
+        <div class="section__team">
+            <div class="team__card">
+                <img src="./image/team/omar.jpg" alt="Omar Ema agency">
+                <div class="team__card--text">
+                    <h3>Omar Perez</h3>
+                    <h4>CEO / Founder</h4>
+                </div>
+                <div class="team__card--redes">
+                    <a href="mailto:omar@emaagency.net" ><i class="fas fa-envelope"></i></a>
+                    <a href="http://t.me/ODPR_listing" target="_black"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://www.linkedin.com/in/omar-perez-985b61196" target="_black"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="team__card">
+                <img src="./image/team/alejandro.jpg" alt="Omar Ema agency">
+                <div class="team__card--text">
+                    <h3>Noel Andrade</h3>
+                    <h4>COO / Founder</h4>
+                </div>
+                <div class="team__card--redes">
+                    <a href="mailto:noel@emaagency.net"><i class="fas fa-envelope"></i></a>
+                    <a href="http://t.me/Naeaex" target="_black"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://www.linkedin.com/in/noel-a-892167b4/" target="_black"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="team__card">
+                <img src="./image/team/leonardo.jpg" alt="Omar Ema agency">
+                <div class="team__card--text">
+                    <h3>Leonardo Villamizar</h3>
+                    <h4>BD / Founder</h4>
+                </div>
+                <div class="team__card--redes">
+                    <a href="mailto:leonardo@emaagency.net"><i class="fas fa-envelope"></i></a>
+                    <a href="http://t.me/Leo_listing" target="_black"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://www.linkedin.com/in/leonardo-villamizar-87a9861ba" target="_black"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="team__card">
+                <img src="./image/team/daniel.jpg" alt="Omar Ema agency">
+                <div class="team__card--text">
+                    <h3>Daniel Guaita</h3>
+                    <h4>BD / Founder</h4>
+                </div>
+                <div class="team__card--redes">
+                    <a href="mailto:daniel@emaagency.net"><i class="fas fa-envelope"></i></a>
+                    <a href="http://t.me/DaniGux" target="_black"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://www.linkedin.com/in/daniel-guaita-04479b185/" target="_black"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="ieo">
+        <div class="section__text animate">
+            <h2>IEO</h2>
+        </div>
+        <div class="section__ieo">
+            <div class="section__ieo--card animate">
+                <img src="./image/svg/flash.svg" alt="Best Prices and Conditions">
+                <h3>Best Prices and Conditions</h3>
+                <h4>We can negotiate rates and services that suit your budget</h4>
+            </div>
+            <div class="section__ieo--card animate">
+                <img src="./image/svg/chat.svg" alt="Best Prices and Conditions">
+                <h3>Marketing and PR</h3>
+                <h4>Strong marketing and PR base for your IEO.</h4>
+            </div>
+            <div class="section__ieo--card animate">
+                <img src="./image/svg/artboard.svg" alt="Best Prices and Conditions">
+                <h3>IEO Strategy and Fundraising</h3>
+                <h4>Help with overall strategy and launch of IEO.</h4>
+            </div>
+            <div class="section__ieo--card animate">
+                <img src="./image/svg/person.svg" alt="Best Prices and Conditions">
+                <h3>Direct contacts</h3>
+                <h4>Negotiations directly with the exchanges.</h4>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contacts">
+        <div class="section__text animate">
+            <h2>Contact us</h2>
+        </div>
+        <div class="section__desc animate">
+            <p>Let us know if you need our help / questions / or want to partner with us</p>        
+        </div>
+        <div class="section__form animate">
+            <p id="errorForm" style="color: #7e1f18; font-size: 18px; display: none;">Some of the fields are empty or have not been filled in correspondingly</p>
+            <div class="section__form--div">
+                <input type="text" placeholder="Name" id="toName">
+                <input type="text" placeholder="Name Project" id="nameProject2">
+            </div>
+            <input type="email" placeholder="Your E-mail" id="toEmail">
+            <textarea name="Comments" id="textarea" placeholder="Comments"></textarea>
+            <button onclick="enviarEmail()" id="eliminarBtn">Contact us</button>
+        </div>
+        <div class="section__form--validado">
+            <h4>the form was submitted successfully, I waited for us to review it. We will get back to you soon.</h4>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="./image/logo-EMA.png" alt="logo footer Ema agency">
+            <p class="color-unico">&copy; 2021 Ema Agency</p>
+            <p>ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="footer__contact">
+            <h3>For questions and requests:</h3>
+            <div class="footer__contact--te">
+                <a href="https://t.me/ODPR_listing" target="_black"><i class="fab fa-telegram-plane color-unico"></i> ODPR_listing</a>
+                <a href="https://www.linkedin.com/company/ema-agency/" target="_black"><i class="fab fa-linkedin-in color-unico"></i> EMAagency</a>
+                <a href="mailto:info@emaagency.net"><i class="fas fa-envelope color-unico"></i> info@emaagency.net</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.sr = new ScrollReveal();
+        sr.reveal('.animate', {
+            duration: 1000
+        });
+        const exchange = document.getElementById('exchange');
+        if (screen.width > 740){ 
+            for(let i = 1; i <= 21; i++) {
+                exchange.innerHTML += `
+                <img loading="lazy" src="./image/exchange/${i}.png" id="img-${i}"">
+                `
+            }
+        }else if (screen.width < 740){ 
+            for(let i = 1; i <= 12; i++) {
+                exchange.innerHTML += `
+                <img loading="lazy" src="./image/exchange/${i}.png" id="img-${i}"">
+                `
+            }
+        }
+    </script>
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/app-particles.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
